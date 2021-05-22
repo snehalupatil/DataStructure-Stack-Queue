@@ -24,4 +24,11 @@ public class MyQueue{
         return myLinkedList.head;
     }
 
+    /**
+     * dequeue method will delete the first node by calling pop method
+     */
+    public void dequeue() {
+        myLinkedList.pop();
+    }
+
 }
