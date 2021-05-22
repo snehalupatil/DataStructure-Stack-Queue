@@ -113,7 +113,8 @@ public class MyLinkedList {
     /**
      * this will print the node.
      */
-    public void printMyNodes() {
+    public void printMyNodes()
+    {
         StringBuffer myNodes = new StringBuffer("My Nodes: ");
         INode tempNode = head;
         while (tempNode.getNext() != null) {

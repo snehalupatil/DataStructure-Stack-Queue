@@ -3,7 +3,8 @@
  * Added two methods get value and set value
  */
 
-public interface INode<k> {
+public interface INode<k>
+{
     k getKey();
     void setKey(k key);
 

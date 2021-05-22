@@ -32,7 +32,8 @@ public class MyNode<K> implements INode<K> {
      * @param next
      */
     @Override
-    public void setNext(INode next) {
+    public void setNext(INode next)
+    {
         this.next = next;
     }
 }

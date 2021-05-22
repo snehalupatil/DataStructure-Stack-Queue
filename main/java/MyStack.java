@@ -12,7 +12,8 @@ public class MyStack {
      * call the add method of the LInkedList and add the node.
      * @param myNode
      */
-    public  void push(INode myNode) {
+    public  void push(INode myNode)
+    {
         myLinkedList.add(myNode);
     }
 
